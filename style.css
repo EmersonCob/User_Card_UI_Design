@@ -42,5 +42,55 @@ section .card .imgText
 
 section .card .imgText .imgBx
 {
-    
+    position: relative;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+section .card .imgText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+section .card .imgText h3
+{
+    font-weight: 500;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    text-align: center;
+    color: #2fa1ff;
+}
+
+section .card .imgText h3 span
+{
+    font-weight: 400;
+    color: #777;
+    font-size: 0.75em;
+}
+
+section .card .sci 
+{
+    display: flex;
+    margin-top: 15px;
+}
+
+section .card .sci li
+{
+    list-style: none;
+}
+
+section .card .sci li a 
+{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #2fa1ff;
+    margin: 0 5px;
 }

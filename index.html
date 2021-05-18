@@ -9,8 +9,9 @@
     <title>User Card</title>
 </head>
 <body>
-    <section>
+    <section class="sec">
         <div class="card">
+            <div class="toggle"></div>
             <div class="content">
                 <div class="imgText">
                     <div class="imgBx">
@@ -26,5 +27,12 @@
             </div>
         </div>
     </section>
+    <script>
+        const sec = document.querySelector('.sec');     
+        const toggle = document.querySelector('.toggle'); 
+        toggle.onclick = function(){
+            sec.classList.toggle('dark')
+        }    
+    </script>
 </body>
 </html>
